@@ -1,0 +1,136 @@
+/* zerando o site */
+body {
+    margin: 0;
+    font-family: tahoma;
+}
+
+/* ===ESTILOS GLOBAIS==*/
+.secao {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+.paragrafo{
+    font-size:18px;
+    text-align:justify;
+    line-height:28px;
+    margin:10px auto;
+    width:980px;
+}
+    /* FIM DOS ESTILOS GLOBAIS */
+
+
+    /* ======INICIO DA PRIMEIRA SECAO======= */
+
+
+.topo {
+    background-color: #afddfb;
+}
+
+.topo img {
+    width: 150px;
+}
+
+.paragrafo-topo {
+    margin-top: 15px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.link-topo{
+    font-size:18px;
+    color:#1d1d1d;
+    border-bottom:2px solid #1d1d1d;
+    text-decoration: none;
+    margin:0 10px;
+
+}
+/* =================FIM DA SEGUNDA SEÇÃO===================== */
+
+
+/* ================INICIO DA SEGUNDA SEÇÃO==================================== */
+.banner{
+    margin-top:50px;
+    padding-top:0;
+}
+
+span{
+    font-weight: bold;
+}
+/* ===================FIM DA TERCEIRA SECAO============ */
+h1{
+    color:#1d1d1d;
+    margin-bottom:5px;
+}
+h2{
+    color:#1c81c0;
+    margin-top:0;
+    font-weight:normal;
+
+}
+.imagem{
+    width:450px;
+}
+.texto-amarelo{
+    color:#fff81b;
+}
+.texto-azul{
+    color:#1c81c0;
+}
+
+/* estilos para 4 secao */
+.servicos, .contato{
+    background-color:#1d80c1;
+}
+h3{
+    color:#fff;
+    font-size:28px;
+    line-height:42px;
+
+}
+
+.paragrafo-servicos{
+    color:#fff;
+    line-height:42px;
+    width:700px;
+    font-size:22px;
+    text-align: center;
+}
+.lista-servicos{
+    width:135px;
+    margin:40px auto 40px;
+}
+
+.item-lista-servicos {
+    font-size: 22px;
+    line-height: 42px;
+    text-align: left;
+    color: #fff;
+    text-decoration:none;
+}
+.paragrafo-contato {
+    color: #fff;
+    background-color: #1d1d1d;
+    padding: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.lista-contato {
+    width: 210px;
+    list-style: none;
+    margin: 40px auto 40px;
+}
+
+.item-lista-contato {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.link-contato {
+    background-color: #ffffff;
+    color: #1d80c1;
+    padding: 2px 5px;
+    border-radius: 5px;
+}

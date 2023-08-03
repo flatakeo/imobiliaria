@@ -32,8 +32,8 @@ body {
 }
 
 .topo img {
-    max-width: 100%; /* Adição: Ajustar o tamanho máximo da imagem para que seja responsiva */
-    height: auto; /* Adição: Permite que a altura da imagem seja ajustada proporcionalmente */
+    max-width: 150px; /* Adição: Definir tamanho máximo para o logo */
+    height: auto;
 }
 
 .paragrafo-topo {
@@ -50,6 +50,14 @@ body {
     margin: 0 10px;
 }
 
+/* Adição: Definir tamanho máximo para as imagens do banner, corretores e imóvel-assinatura */
+.banner img,
+.casas img,
+.imagem {
+    max-width: 100%;
+    height: auto;
+}
+
 /* Adição: Media query para telas menores */
 @media screen and (max-width: 768px) {
     .topo {
@@ -64,11 +72,11 @@ body {
     .paragrafo-servicos,
     .lista-servicos,
     .lista-contato {
-        width: 90%; /* Ajuste para largura máxima em telas menores */
+        width: 90%;
     }
 
     .item-lista-servicos,
     .item-lista-contato {
-        font-size: 16px; /* Ajuste do tamanho da fonte em telas menores */
+        font-size: 16px;
     }
 }
